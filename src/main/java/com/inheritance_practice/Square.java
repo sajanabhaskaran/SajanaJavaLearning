@@ -10,8 +10,8 @@ public class Square extends Shape {
 
     @Override
     public double computeCost() {
-        double area= super.area();
-        double sqrCost= area*(super.getBaseCost()+this.squareCost);
+        double area = super.area();
+        double sqrCost = area * (super.getBaseCost() + this.squareCost);
         return sqrCost;
     }
 }

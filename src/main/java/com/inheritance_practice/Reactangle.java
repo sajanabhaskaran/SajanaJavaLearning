@@ -10,9 +10,9 @@ public class Reactangle extends Shape {
 
     @Override
     public double computeCost() {
-        double area=super.area();
+        double area = super.area();
 
-        double finalCost= area*(super.getBaseCost()+this.rectangleCost);
+        double finalCost = area * (super.getBaseCost() + this.rectangleCost);
         return finalCost;
     }
 

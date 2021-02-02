@@ -3,7 +3,7 @@ package com.inheritance_practice;
 public abstract class Shape {
     private double length;
     private double breadth;
-    private double baseCost=10;
+    private double baseCost = 10;
 
     public Shape() {
     }
@@ -17,8 +17,9 @@ public abstract class Shape {
         this.breadth = breadth;
 
     }
-    public double area(){
-        double area= this.length*this.breadth;/**/
+
+    public double area() {
+        double area = this.length * this.breadth;/**/
         return area;
     }
     /*public double computeCost(double area){

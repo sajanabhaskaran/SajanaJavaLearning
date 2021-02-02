@@ -15,7 +15,7 @@ public class CycleMain {
             }
         };
         perform(desertCycling);
-        desertCycling.getSpeedLimit("WithGear");
+        //desertCycling.getSpeedLimit("WithGear");
 
         //Lambda Expression
        Cycling riverLambda=   ( gearType) -> {
@@ -23,7 +23,9 @@ public class CycleMain {
             return 1;
         };
        perform(riverLambda);
-       riverLambda.getSpeedLimit("WithGear");
+       //riverLambda.getSpeedLimit("WithGear");
+        
+
 
 
 
