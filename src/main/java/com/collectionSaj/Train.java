@@ -1,6 +1,8 @@
 package com.collectionSaj;
 
-public class Train {
+import java.util.Comparator;
+
+public class Train implements Comparator {
     private double speed;
     private String name;
 
@@ -36,5 +38,13 @@ public class Train {
     @Override
     public int hashCode() {
         return 1500;
+    }
+
+    @Override
+    public int compare(Object o1, Object o2) {
+        Train a1= (Train)o1;
+        Train a2= (Train) o2;
+        return a1.getName().compareTo(a2.getName());
+
     }
 }

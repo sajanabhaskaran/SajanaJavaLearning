@@ -9,6 +9,14 @@ public class Cars {
         return privateSpeed;
     }
 
+    @Override
+    public String toString() {
+        return "Cars{" +
+                "speed=" + speed +
+                ", privateSpeed=" + privateSpeed +
+                '}';
+    }
+
     public void setPrivateSpeed(int privateSpeed) {
         this.privateSpeed = privateSpeed;
     }

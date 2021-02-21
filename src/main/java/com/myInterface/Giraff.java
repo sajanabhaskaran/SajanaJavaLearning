@@ -4,7 +4,7 @@ public class Giraff implements Animal {
 
     @Override
     public void run() {
-        System.out.println("Paaayum Giraff");
+        System.out.println("Giraff is running");
     }
 
     @Override

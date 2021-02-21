@@ -9,6 +9,7 @@ public abstract class Shape {
     }
 
     public double getBaseCost() {
+
         return baseCost;
     }
 

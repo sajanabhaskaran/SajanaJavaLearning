@@ -12,6 +12,7 @@ public class InheritanceDemo {
         BMW myBMW= new BMW(speed);
         myBMW.increaseSpeed();
         myBMW.navigate();
+        System.out.println(C1.toString());
 
 
     }

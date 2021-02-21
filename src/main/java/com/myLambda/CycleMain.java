@@ -24,6 +24,14 @@ public class CycleMain {
         };
        perform(riverLambda);
        //riverLambda.getSpeedLimit("WithGear");
+
+
+        Cycling skyCycling= gearType -> {
+            if (gearType.equals("WithGear")) return 100;
+            return 50;
+        };
+        System.out.println(skyCycling.getSpeedLimit("WithGear"));
+        perform(skyCycling);
         
 
 
@@ -33,6 +41,7 @@ public class CycleMain {
 
 
     static void perform(Cycling c){
+
         System.out.println("Speed Limit: " +c.getSpeedLimit("WithGear"));
     }
 }

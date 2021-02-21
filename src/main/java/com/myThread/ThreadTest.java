@@ -8,12 +8,14 @@ public class ThreadTest {
         Runnable run1= new Runnable() {
             @Override
             public void run() {
+
                 System.out.println("Thread Created for run1");
             }
         };
         Runnable run2=new Runnable() {
             @Override
             public void run() {
+
                 System.out.println("Thread Created for run2");
             }
         };
@@ -33,6 +35,7 @@ public class ThreadTest {
     }
 
     public static void foo(String... s){
+
         System.out.println(s);
     }
 
